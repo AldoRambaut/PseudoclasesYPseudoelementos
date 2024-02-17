@@ -1,0 +1,87 @@
+#ej1 {
+    list-style: none;
+    transition: 0.5s;
+}
+
+#ej1 li a {
+    text-decoration: none;
+}
+
+#ej1 li a:hover {
+    color: rebeccapurple;
+    transition: 0.5s;
+}
+
+#ej1 li a:active {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#ej2 {
+    list-style: none;
+    transition: 0.5s;
+}
+
+#ej2 a {
+    text-decoration: none;
+}
+
+#ej2 li a:hover {
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+#ej2 li a:active {
+    color: red;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+#ej3:hover {
+    filter: blur(5px);
+    transition: 1s;
+}
+
+#ej3:active {
+    filter: none;
+    transition: 1s;
+}
+
+.ej4 input:focus {
+    background-color: aquamarine;
+}
+
+.ej4::after {
+    content: 'Mensaje de ayuda';
+}
+
+.ej5 {
+    border-collapse: collapse;
+}
+
+.ej5 tr , .ej5 td, .ej5 th {
+    border:1px solid gray;
+    padding: 5px;
+}
+
+.ej5 tr:nth-child(even) {
+    background-color: bisque;
+    color: red;
+}
+
+.ej5 tr:nth-child(odd) {
+    background-color: brown;
+    color: antiquewhite;
+}
+
+#name::before {
+    content: url(./nombre.redimensionado.png);
+}
+
+#address::before {
+    content: url(./direccion.redimensionado.png);
+}
+
+#phone::before {
+    content: url(./telefono.redimensionado.png);
+}

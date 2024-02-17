@@ -1,0 +1,40 @@
+#ej1:hover {
+    color: forestgreen;
+}
+
+#ej2::first-line {
+    background-color: lightcyan;
+}
+
+#ej3 li:last-child {
+    text-decoration: underline;
+}
+
+.ej4::first-letter {
+    color: red;
+    font-size:larger;
+}
+
+#ej5 li::before {
+    content: "=>";
+}
+
+#ej6:active {
+    background-color: yellow;
+}
+
+#ej7 li:last-child {
+    border: 2px solid green;
+}
+
+#ej8 li:nth-child(odd) {
+    color: blue;
+}
+
+#ej9::placeholder {
+    color: red;
+}
+
+.destacado > p {
+    background-color: aquamarine;
+}
